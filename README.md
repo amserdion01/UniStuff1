@@ -1,6 +1,2 @@
 # UniStuff1
-Yeah, ignore this xd \n
-I will update it tomorrow or someday in the near future. 
-For now the letters must be all in one line. Will fix it soon .
-Formatting of it does not matter. I hope? 
-DM me on whatsapp / discord if anything does not work.
+Yeah uh, I'll update this in the near future. For now it only accepts letters written in one line. Gonna fix another day when I'm bored enough. If you encounter any errors DM me on discord or whatsapp and I'll fix it.
