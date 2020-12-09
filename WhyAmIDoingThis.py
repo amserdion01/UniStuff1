@@ -1,18 +1,24 @@
 from textblob import TextBlob as GoogleTranslate    #pip install textblob for whoever wants to use this program
 from CommonWords import CommonWords
+from LetterReader import Letter
 
-#EDIT THE VARIABLE Letter. LANGUAGE DOES NOT MATTER
-Letter = "Buna Mos Craciun, Apropo, ma cheama Alex Alexandru Si De Craciun As Dori Un Ford Verde. Tatal meu se numeste Louis Grozav si poti sa ma gasesti Pe Strada Ceahlaului Nr 555, Ap 4, Scara A. Te Astept!!  Multumesc!"
+#The letters below are for testing purposes, ignore them. To test your own letter, put it in the Letter.txt file !!
+
+Letter3 = "Buna Mos Craciun, Apropo, ma cheama Alex Alexandru Si De Craciun As Dori Un Ford Verde. Tatal meu se numeste Louis Grozav si poti sa ma gasesti Pe Strada Ceahlaului Nr 555, Ap 4, Scara A. Te Astept!!  Multumesc!"
 Letter2 = "My name is George , I am 11 years old and I live on Nordalveien 11 in Oslo, Norway and this year I’ve been really nice! For Christmas I would like a pretty red race car and a ton of sweets.Thank you so much!!!"
 Letter1 = "Draga mosule , ma numesc Popescu Levi si am 12 ani.Cadoul de anul trecut mi-a placut foarte mult , acum te rog sa mi aduci o masina cu telecomanda."
+Letter4 = "Dear Santa,My name is Robbin, I am 7 years old and I live on Zeeweg Ong 110 in IJmuiden, Netherlands. My mother is writing this letter to you because I’m too young.For Christmas I would like a dinosaur with big claws and a blue airplane.Thank you!"
+
+
+print ("Letter in its original language:",Letter)
 
 try:
     _Letter = GoogleTranslate(Letter)
     LetterInEN = _Letter.translate(to='en')
-    print(LetterInEN)
+    print("\n\nLetter in english:",LetterInEN)
 except:
     LetterInEN = Letter
-    print(LetterInEN)
+    print("\n\nLetter in english:",LetterInEN)
 
 Name = ""
 Location = ""
