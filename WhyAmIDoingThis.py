@@ -1,6 +1,7 @@
 from textblob import TextBlob as GoogleTranslate    #pip install textblob for whoever wants to use this program
 from CommonWords import CommonWords
 from LetterReader import Letter
+from ComboList import *
 
 #The letters below are for testing purposes, ignore them. To test your own letter, put it in the Letter.txt file !!
 
