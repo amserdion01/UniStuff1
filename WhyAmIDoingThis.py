@@ -54,7 +54,7 @@ for i in range (len(LetterInEN.split())):
              j+=1
 
 
-    if ((tempword == "want") or (tempword == "for") or (tempword == "love") or (tempword == "like")) and ((LetterInEN.split()[i-1].lower().replace(',',"").replace('.',"").replace('!',"") == "would") or (LetterInEN.split()[i-1].lower().replace(',',"").replace('.',"").replace('!',"") == "wish")):
+    if ((tempword == "want") or (tempword == "for") or (tempword == "love") or (tempword == "like") or (tempword == "receive")) and ((LetterInEN.split()[i-1].lower().replace(',',"").replace('.',"").replace('!',"") == "would") or (LetterInEN.split()[i-1].lower().replace(',',"").replace('.',"").replace('!',"") == "wish") or (LetterInEN.split()[i-1].lower().replace(',',"").replace('.',"").replace('!',"") == "to")):
        swGift = 1
        j = 1
        while swGift == 1:
